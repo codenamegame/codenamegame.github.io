@@ -111,7 +111,23 @@ input:checked + .slider:before {
 }
 
 
-
+#warning-message { display: none;     position: absolute;
+    top: 40%;
+    background: white;
+    height: 77px;
+    width: 200px;
+    text-align: center;
+    padding-top: 17px;
+    left: 20%;}
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+	
+	
 
 #pop {
     position: absolute;
