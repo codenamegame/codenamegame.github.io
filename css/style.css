@@ -117,6 +117,7 @@ input:checked + .slider:before {
     position: absolute;
     top: 40%;
     left: 24%;
+	display:none;
 }
 	
 #pop > #actions {
